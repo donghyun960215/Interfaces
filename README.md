@@ -19,7 +19,7 @@ function hello2(person: Person2): void {
 }
 
 hello1({name: 'dong', age: 28});
-hello1({name: 'hyun'});
+hello1({name: 'hyun'}); //오류
 
 hello2({name: 'dong', age: 28});
 hello2({name: 'hyun'});
